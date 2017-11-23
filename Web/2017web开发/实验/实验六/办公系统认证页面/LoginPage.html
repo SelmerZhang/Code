@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--prj_11_1.html-->
+<!--
+  js事件分析
+  登录系统认证页面
+  作者：刘珂伶
+  2017.11.19
+-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>校园办公系统认证页面</title>
+  <link rel="stylesheet" href="LoginPage.css" type="text/css">
+  <script src="LoginPage.js" type="text/javascript">
+  </script>
+</head>
+<body>
+  <div>
+    <form action="http://www.baidu.com.cn" name="myform" method="post" onsubmit="return check()">
+      <table>
+        <tr>
+          <th colspan="4"><h3>校园办公系统认证页面</h3></th>
+        </tr>
+        <tr>
+          <td rowspan="2"><img src="img18.jpg" alt=""></td>
+          <td  id="td1">
+            <p>校园卡号</p>
+            <p>口&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;令</p>
+            <p>二次口令</p>
+            <p>QQ/微信</p>
+          </td>
+          <td id="td2">
+            <input type="text" name="cardno" id="cardno" onblur="checkcardno()">
+            <br/>
+            <input type="password" name="key" id="key" onblur="checkkey()">
+            <br/>
+            <input type="password" name="key1" id="key1" onblur="checkkey1()">
+            <br/>
+            <input type="text" name="qqwx" id="qqwx" onblur="checkqqwx()">
+            <br/>
+          </td>
+          <td>
+            <label for="cardno" id="err_cardno"></label>
+            <br/>
+            <label for="key" id="err_key"></label>
+            <br/>
+            <label for="key1" id="err_key1"></label>
+            <br/>
+            <label for="qqwx" id="err_qqwx"></label>
+            <br/>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" id="td3">
+            <input type="submit" name="" id="" value="提交">
+            <input type="reset" name="" id="" value="重置">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</body>
+
+</html>
