@@ -118,15 +118,7 @@ int main()
 			}
 		}
 	}
-	//BorrowBook Borrow;
-	//Borrow.TntegrationReader();
-	///*Read_Write<Reader>ReaderUser;
-	//ReaderUser.ToRead("ReaderInfo.txt");
-	//for (unsigned i = 0; i < ReaderUser.book.size(); i++)
-	//{
-
-	//	ReaderUser.book[i].display();
-	//}*/
+	
 
 	system("pause");
 

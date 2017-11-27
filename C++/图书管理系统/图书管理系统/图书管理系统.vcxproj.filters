@@ -71,5 +71,8 @@
     <ClInclude Include="BorrowBook.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="print.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -2,9 +2,10 @@
 #define _BOOK_H
 
 #include<string>
+#include"print.h"
 using namespace std;
 
-class Book
+class Book:public virtual print
 {
 public:
 	Book();

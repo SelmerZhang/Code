@@ -3,7 +3,7 @@
 
 #include"BookInventory.h"
 #include"Read_Write.h"
-class UpdateBook
+class UpdateBook:public Book
 {
 public:
 	UpdateBook();

@@ -92,6 +92,7 @@
     <ClInclude Include="BookInventory.h" />
     <ClInclude Include="BorrowBook.h" />
     <ClInclude Include="ManageLogin.h" />
+    <ClInclude Include="print.h" />
     <ClInclude Include="Reader.h" />
     <ClInclude Include="Read_Write.h" />
     <ClInclude Include="UpdateBook.h" />

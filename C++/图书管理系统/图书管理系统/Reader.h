@@ -4,9 +4,10 @@
 #include<string>
 #include<vector>
 #include"Book.h"
+#include"print.h"
 
 using namespace std;
-class Reader
+class Reader:public virtual print,public Book
 {
 public:
 	Reader();

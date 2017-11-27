@@ -5,23 +5,6 @@ BookInventory::BookInventory()
 	
 }
 
-//void BookInventory::readBook()
-//{
-//	Book b;
-//	ifstream file("book.txt", ios::in);
-//	while (!file.eof())//读取txt内容
-//	{
-//		if (!file)
-//		{
-//			cout << "BookInventory:文件未正常打开" << endl;
-//			break;
-//		}
-//		file >> b;
-//		book.push_back(b);
-//	}
-//	book.pop_back();
-//	file.close();
-//}
 void BookInventory::printBook()
 {
 	//1、输入查询内容

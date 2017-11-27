@@ -33,16 +33,7 @@ void AddBook::getBook()
 			break;
 	}
 	R_W.ToWrite("book.txt");//读入文件
-	/*ofstream file("book.txt", ios::app | ios::out);
-	if (!file)
-	{
-		cout << "文件打开失败" << endl;
-	}
-	for (unsigned i = 0; i < book.size(); i++)
-	{
-		file << book[i];
-	}
-	file.close();*/
+	
 }
 
 AddBook::~AddBook()
