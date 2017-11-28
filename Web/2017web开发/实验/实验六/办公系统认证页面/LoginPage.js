@@ -59,10 +59,10 @@ function checkqqwx() {
 
 function check()//提交时验证
 {
-  var cardno = $("err_cardno").value;
-  var key = $("err_key").value;
-  var key1 = $("err_key1").value;
-  var qqwx = $("err_qqwx").value;
+  var cardno = $("err_cardno").innerHTML;
+  var key = $("err_key").innerHTML;
+  var key1 = $("err_key1").innerHTML;
+  var qqwx = $("err_qqwx").innerHTML;
   if (cardno == " " && key == " " && key1 == " " && qqwx == " ")//所有的都通过才能提交
     return true;
   else {
