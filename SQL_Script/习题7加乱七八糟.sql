@@ -85,4 +85,6 @@ declare @time int
 select @time=DateName(year,GetDate())
 print @time
 
+
+dbcc checkalloc('Book')
                                          
