@@ -1,0 +1,118 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#header{
+  height: 50px;
+  width: 100%;
+  background-color: #f8931d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main{
+  top: 50px;
+  bottom:  60px;
+  height: 80%;
+  overflow-y:auto;
+}
+
+
+#img1 img,#img2 img{
+  height: 37px;
+  width: 104px;
+  padding: 0px 30px;
+}
+
+#img1,#img2{
+  margin: 15px;
+  display: flex;
+  justify-content: center;  
+}
+
+#img3 img{
+  width: 330px;
+  height: 55px;
+}
+
+#img4{
+  z-index: 0;
+}
+#img5{
+  z-index: 1;
+  position: relative;
+  top: 269px;
+  height: 18px;
+  width: 16px;
+  left: 275px;
+}
+
+#review{
+  position: relative;
+  top: 266px;
+  left: 325px;
+  border: none;
+  size: 1;
+  width: 20px;
+  height: 10px;
+}
+#main hr{
+background-color: #6d7e8f;
+}
+
+#footer
+{
+  z-index:-1;
+}
+
+#page_windown{
+  background: url("page_img/review.png") no-repeat;
+  background-size: 75px 25px;
+  background-position: 285px 265px;
+  height: 300px;
+}
+
+#add img{
+   height: 60px;
+}
+
+#add{
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+  position: relative;
+  bottom: -40px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  float: left;
+  margin: 0px
+}
+
+ li img{
+  height: 20px;
+  width: 20px;
+ }
+
+ li a{
+   text-decoration: none;
+   color: black;
+ }
+ #li2{
+  margin-right: 55px;
+  margin-left: 35px;   
+ }
+ 
+ 
+ #li3{
+  margin-left: 55px;
+  margin-right: 35px;
+ }
