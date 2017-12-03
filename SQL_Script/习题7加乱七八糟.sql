@@ -1,4 +1,5 @@
-
+set nocount on
+use Book
 if Exists(select name from sysobjects where NAME = 'avg_price' and type='P')
 drop procedure avg_price
 go
