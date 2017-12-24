@@ -18,13 +18,13 @@ bool library::usertype()
 		cout << "请输入两位数管理员账号，或者用户四位数账号：" << endl;
 		cin >> code;
 		m_strRCode = code;
-		if (m_strRCode>9&&m_strRCode<100)//管理员两位数账号
+		if (m_strRCode > 9 && m_strRCode < 100)//管理员两位数账号
 		{
 			return true;
 			break;
 		}
 
-		if (m_strRCode>99&&m_strRCode<10000)//用户四位数账号
+		if (m_strRCode>99 && m_strRCode < 10000)//用户四位数账号
 		{
 			return false;
 			break;
@@ -91,7 +91,7 @@ void library::BookInventory()
 	{
 		if (key == "1")
 		{
-			for (unsigned i = 0; i <read.size(); i++)//打印从txt中读取的结果
+			for (unsigned i = 0; i < read.size(); i++)//打印从txt中读取的结果
 			{
 				read[i].displayBook();
 			}
@@ -230,10 +230,12 @@ void library::changeBook()
 		{
 			if (&(p[t - a]) == &(read[i]))//地址相同时	
 			{
-				cout << "找到地址相同的info" << endl;
-				read[i] = *p;
+				swap(read[i], (p[t - a]));
+				cout << "修改成功" << endl;
+
 			}
 		}
+
 		cout << "继续修改请按1，否则按任意键退出" << endl;
 		string key3;
 		cin >> key3;
@@ -251,9 +253,9 @@ void library::changeBook()
 	//将文件清空，再重新写入
 	ofstream file1("book.txt", ios::trunc | ios::out);//将文件清空以便重新写入
 	file1.close();
-	Write("book.txt",read);
-	delete[] p;
-	p = NULL;//内存释放出现问题，其他的正常
+	Write("book.txt", read);
+	//delete[] p;
+	//p = NULL;//内存释放出现问题，其他的正常
 }
 
 void library::DropBook()
@@ -316,7 +318,7 @@ void library::DropBook()
 	//将文件清空，再重新写入删除后的内容
 	ofstream file1("book.txt", ios::trunc | ios::out);//将文件清空以便重新写入
 	file1.close();
-	Write("book.txt",read);
+	Write("book.txt", read);
 }
 
 void library::AddBook()
@@ -344,6 +346,8 @@ void library::AddBook()
 		if (key != "y" && key != "Y")//判断是否继续输入
 			break;
 	}
+	ofstream file1("book.txt", ios::trunc | ios::out);//将文件清空以便重新写入
+	file1.close();
 	Write("book.txt", read);//读入文件
 }
 
@@ -432,17 +436,18 @@ void library::checktype()
 	switch (key1)
 	{
 	case 1:
+	{     
+		vector<Teacher_Reader>read(Read<Teacher_Reader>("Teacher_Reader.txt"));
+	for (unsigned i = 0; i < read.size(); i++)
 	{
-		vector<Teacher_Reader> read(Read<Teacher_Reader>("Teacher_Reader.txt"));
-		for (unsigned i = 0; i < read.size(); i++)
-		{
-			read[i].display();
-		}
-		break;
+		read[i].display();
+	}
+	break;
 	}
 	case 2:
 	{
 		vector<Student_Reader> read(Read<Student_Reader>("Student_Reader.txt"));
+
 		for (unsigned i = 0; i < read.size(); i++)
 		{
 			read[i].display();
@@ -503,7 +508,7 @@ void library::borrow(Teacher_Reader reader, string filename)
 		reader.getName();//新用户，输入姓名
 	}
 
-	vector<Book> read(Read<Book>("book.txt"));		
+	vector<Book> read(Read<Book>("book.txt"));
 	int a = 0;
 	Book *p = new Book[read.size()];//用于接收借书后要修改的图书信息
 	string key2;//用于判断是否查找出需要借的图书，并对借书后的文件进行修改
@@ -568,10 +573,10 @@ void library::borrow(Teacher_Reader reader, string filename)
 				}
 			}
 		}
-		
+
 		for (unsigned i = 0; i < read.size(); i++)//嵌套太多，待优化
 		{
-			if (&(p[t-a- 1]) == &(read[i]))//先找到相同地址
+			if (&(p[t - a - 1]) == &(read[i]))//先找到相同地址
 			{
 				if (read[i].m_iBookCount < 0 || read[i].m_iBookCount == 0)//再判断书数量为0，不可借
 				{
@@ -594,7 +599,7 @@ void library::borrow(Teacher_Reader reader, string filename)
 					{
 						Teacher.push_back(reader);
 					}
-					Write(filename,Teacher);//追加到Reader.txt 文件中
+					Write(filename, Teacher);//追加到Reader.txt 文件中
 					break;
 				}
 			}
@@ -607,7 +612,7 @@ void library::borrow(Teacher_Reader reader, string filename)
 	//借书完成将文件清空，再重新写入
 	ofstream file1("book.txt", ios::trunc | ios::out);//将文件清空以便重新写入
 	file1.close();
-	Write("book.txt",read);
+	Write("book.txt", read);
 }
 
 void library::borrow(Student_Reader reader, string filename)
@@ -886,7 +891,7 @@ void library::Return(Teacher_Reader reader, string filename)
 	vector<Teacher_Reader> teacher_reader(Read<Teacher_Reader>(filename));
 	while (true)
 	{
-		string name;		
+		string name;
 		string key4;//判断是否继续还书vector<int>key7;//记录用户在vector流中的位置
 		int key5;//记录用户在文件中的位置
 		bool key2 = false;//判断用户是否存在
@@ -905,7 +910,7 @@ void library::Return(Teacher_Reader reader, string filename)
 		//不存在此用户
 		if (key2 == false)
 		{
-			cout << "此用户不存在" << endl;
+			cout << "此用户不存在，您还未借书" << endl;
 			break;
 		}
 		if (reader.readerbook.size() < 1)
@@ -925,7 +930,7 @@ void library::Return(Teacher_Reader reader, string filename)
 			vector<Book> bookR_W(Read<Book>("book.txt"));
 			for (unsigned i = 0; i < bookR_W.size(); i++)
 			{
-				if (reader.readerbook[key3-1].m_strBookName == bookR_W[i].m_strBookName && reader.readerbook[key3-1].m_iBookCode == bookR_W[i].m_iBookCode)//在book.txt 中找到用户还的那本书
+				if (reader.readerbook[key3 - 1].m_strBookName == bookR_W[i].m_strBookName && reader.readerbook[key3 - 1].m_iBookCode == bookR_W[i].m_iBookCode)//在book.txt 中找到用户还的那本书
 				{
 					bookR_W[i].m_iBookCount++;
 				}
@@ -1000,7 +1005,7 @@ void library::Return(Student_Reader reader, string filename)
 		//不存在此用户
 		if (key2 == false)
 		{
-			cout << "此用户不存在" << endl;
+			cout << "此用户不存在，您还未借书" << endl;
 			break;
 		}
 		if (reader.readerbook.size() < 1)
@@ -1095,7 +1100,7 @@ void library::Return(Outside_campus_Reader reader, string filename)
 		//不存在此用户
 		if (key2 == false)
 		{
-			cout << "此用户不存在" << endl;
+			cout << "此用户不存在，您还未借书" << endl;
 			break;
 		}
 		if (reader.readerbook.size() < 1)

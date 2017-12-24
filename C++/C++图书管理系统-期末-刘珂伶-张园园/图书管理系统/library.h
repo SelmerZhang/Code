@@ -32,7 +32,6 @@ public:
 	void borrowtype(int chiose1);	
 	void returntype(int chiose2);
 	void checktype();
-	
 	template<typename T>
 	vector<T> Read(string txtname);
 	template<typename T>
