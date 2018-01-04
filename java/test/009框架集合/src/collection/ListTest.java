@@ -91,6 +91,42 @@ public class ListTest {
 		}
 	}
 	/**
+	 * 通过迭代器遍历list
+	 */
+	public void testIterator() {
+		Iterator it=coursesToSelect.iterator();
+		while (it.hasNext()) {
+			Course	cr=(Course) it.next();
+			System.out.println("课程："+cr.id+":"+cr.name);
+		}
+	}
+	
+	/**
+	 * for each 方法遍历
+	 */
+	public void testForeach() {
+		for(Object obj:coursesToSelect)
+		{
+			Course cr=(Course)obj;
+			System.err.println("课程"+cr.id+":"+cr.name);
+		}
+	}
+	
+	/**
+	 * 修改list中元素
+	 */
+	public void testModfy(int Index,Course cr) {
+		coursesToSelect.set(Index, cr);
+	}
+	
+	/**
+	 * 删除list中的元素
+	 */
+	public void testRemove(int index) {
+		coursesToSelect.remove(index);
+	}
+	
+	/**
 	 * main
 	 */
 	public static void main(String[] args) {
@@ -99,7 +135,25 @@ public class ListTest {
 		System.out.println();
 		System.out.println("有如下课程待选");
 		iT.testget();
-		
+		System.out.println();
+		System.out.println("迭代器");
+		iT.testIterator();
+		System.out.println();
+		System.out.println("Foreach 遍历");
+		iT.testForeach();
+		System.out.println();
+		System.out.println("修改元素");
+		//Course c=new Course("7", "毛概");
+		iT.testModfy(6,new Course("7", "毛概"));
+		iT.testIterator();
+		System.out.println();
+		int key;
+		Scanner s= new Scanner(System.in);
+		System.out.println("请输入需要删除的位置");
+		key=s.nextInt()-1;
+		iT.testRemove(key);
+		System.out.println("删除了位置 "+(key+1)+" 的值后的list");
+		iT.testForeach();
 	}
 	
 }
