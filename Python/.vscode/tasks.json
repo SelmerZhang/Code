@@ -1,0 +1,15 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  
+   // The command is tsc. Assumes that tsc has been installed using npm install -g typescript
+  "command":"python",
+  "windows":{
+     "command": "E:\\software\\Python36\\python.exe"
+  },
+  
+
+   // args is the HelloWorld program to compile.
+   "args": ["${file}"]
+}
