@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for text5_Douyu project
+# Scrapy settings for pychram_test project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,17 +9,17 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'text5_Douyu'
+BOT_NAME = 'pychram_test'
 
-SPIDER_MODULES = ['text5_Douyu.spiders']
-NEWSPIDER_MODULE = 'text5_Douyu.spiders'
+SPIDER_MODULES = ['pychram_test.spiders']
+NEWSPIDER_MODULE = 'pychram_test.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'Mozilla/5.0 (Linux; U; Android 7.0; zh-CN; ZUK Z2121 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.6.8.952 Mobile Safari/537.36'
+#USER_AGENT = 'pychram_test (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = False
+ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = False
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-    #'text5_Douyu.middlewares.Text5DouyuSpiderMiddleware': 543, #'text5_Douyu.middlewares.SeleniumMiddleware': 542,
+#    'pychram_test.middlewares.PychramTestSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'text5_Douyu.middlewares.Text5DouyuDownloaderMiddleware': 543,
+#    'pychram_test.middlewares.PychramTestDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -64,9 +64,9 @@ ROBOTSTXT_OBEY = False
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-    'text5_Douyu.pipelines.Text5DouyuPipeline': 300,
-}
+#ITEM_PIPELINES = {
+#    'pychram_test.pipelines.PychramTestPipeline': 300,
+#}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html

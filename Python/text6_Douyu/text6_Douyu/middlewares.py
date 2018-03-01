@@ -4,18 +4,19 @@
 #
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
+
+from scrapy import signals
 import time
 from selenium import webdriver
 from scrapy.http.response.html import HtmlResponse
 from scrapy.http.response import Response
-from scrapy import signals
 
-
-class Text5DouyuSpiderMiddleware(object):
+class Text6DouyuSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
     # passed objects.
-
+    
+ 
     @classmethod
     def from_crawler(cls, crawler):
         # This method is used by Scrapy to create your spiders.
@@ -59,41 +60,24 @@ class Text5DouyuSpiderMiddleware(object):
         spider.logger.info('Spider opened: %s' % spider.name)
 
 
-class Text5DouyuDownloaderMiddleware(object):
+class Text6DouyuDownloaderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.
+    super(Text6DouyuSpiderMiddleware, self).__init__()RequestDownloadMiddleWare(object):
+    self.driver = webdriver.Chrome()
+    def process_request(self,request,spider):
+        if spider.name='Douyu_info':
+            spider.driver.get(request.url)
+            print("深V股v结婚两个关于一一一一一一一一一")
+            print(request.url)
+            '''for x in xrange(1,11,2):
+                i=float(x)/10
+                js="document.body.scrollTop=document.body.scrollHeight * %f"%i
+                spider.driver.execute_script(js)
+                time.sleep(1)'''
+            response = Response(url = request.url,body=bytes(spider.driver.page_source),request = request)
+        return response 
+　      else:
+　　　       pass
     
-
-
-    @classmethod
-    def from_crawler(cls, crawler):
-        # This method is used by Scrapy to create your spiders.
-        s = cls()
-        crawler.signals.connect(s.spider_opened, signal=signals.spider_opened)
-        return s
-
-    def process_request(self, request, spider):
-        # Called for each request that goes through the downloader
-        # middleware.
-        return None
-
-    def process_response(self, request, response, spider):
-        # Called with the response returned from the downloader.
-
-        # Must either;
-        # - return a Response object
-        # - return a Request object
-        # - or raise IgnoreRequest
-        return response
-
-    def process_exception(self, request, exception, spider):
-        # Called when a download handler or a process_request()
-        # (from other downloader middleware) raises an exception.
-
-        # Must either:
-        # - return None: continue processing this exception
-        # - return a Response object: stops process_exception() chain
-        # - return a Request object: stops process_exception() chain
-        pass
-

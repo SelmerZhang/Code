@@ -6,7 +6,7 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class Text5DouyuPipeline(object):
+class Text6DouyuPipeline(object):
     def process_item(self, item, spider):
         def __init__(self):
             self.f=open("douyu.txt","wb")
@@ -17,5 +17,4 @@ class Text5DouyuPipeline(object):
             
         def spider_closed(self):
             self.f.close()
-
-        
+    

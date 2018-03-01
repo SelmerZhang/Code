@@ -1,24 +1,26 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from selenium import webdriver
-from bs4 import BeautifulSoup
-from text5_Douyu.items import Text5DouyuItem
+from text6_Douyu.items import Text6DouyuItem 
 
-
-
-class DouyuimageSpider(scrapy.Spider):
-    name = 'DouyuImage'
+class DouyuInfoSpider(scrapy.Spider):
+    name = 'Douyu_Info'
     #allowed_domains = ['douyu.com']
-    start_urls = ['https://yuba.douyu.com/allclassify/anchorlist/list/516']  
+    start_urls = ['https://yuba.douyu.com/allclassify/anchorlist/list/516']
 
     def __init__(self):
-        super(DouyuimageSpider,self).__init__()
-        self.web=webdriver.Chrome() 
-        
+        super(DouyuInfoSpider,self).__init__()
+        self.driver=webdriver.Chrome()
+
 
     def parse(self, response):
-        item=Text5DouyuItem()
-        list_item=response.xpath("//div[@class='classify-classifyGroup-1lMJV']/div") 
+        
+        item=Text6DouyuItem()
+        list_item=response.xpath("//div[@class='classify-classifyGroup-1lMJV']/div")
+        print(type(response))
+        if response:
+            pass
+            #print("response.xpath("//div[@class='classify-classifyGroup-1lMJV']/div")") 
         #list_item=soup.find_all("div",class_="classify-classifyGroup-1lMJV")#主页所有主播链接
         for list in list_item:
             nickname=list.xpath("//div[0]/p/text()").extract()[0]
@@ -31,18 +33,5 @@ class DouyuimageSpider(scrapy.Spider):
             yield item
     
     def closed(self,reason):
-        print("关闭爬虫，reason："+reason)
-        self.web.quit()
-
-
-
-
-
-
-        
-        
-        
-
-
-
-
+        print("爬虫关闭原因：",reason)
+        #self.driver.quit()

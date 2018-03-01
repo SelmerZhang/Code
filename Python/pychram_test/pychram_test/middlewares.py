@@ -4,14 +4,11 @@
 #
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-import time
-from selenium import webdriver
-from scrapy.http.response.html import HtmlResponse
-from scrapy.http.response import Response
+
 from scrapy import signals
 
 
-class Text5DouyuSpiderMiddleware(object):
+class PychramTestSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
     # passed objects.
@@ -59,12 +56,10 @@ class Text5DouyuSpiderMiddleware(object):
         spider.logger.info('Spider opened: %s' % spider.name)
 
 
-class Text5DouyuDownloaderMiddleware(object):
+class PychramTestDownloaderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.
-    
-
 
     @classmethod
     def from_crawler(cls, crawler):
@@ -76,6 +71,13 @@ class Text5DouyuDownloaderMiddleware(object):
     def process_request(self, request, spider):
         # Called for each request that goes through the downloader
         # middleware.
+
+        # Must either:
+        # - return None: continue processing this request
+        # - or return a Response object
+        # - or return a Request object
+        # - or raise IgnoreRequest: process_exception() methods of
+        #   installed downloader middleware will be called
         return None
 
     def process_response(self, request, response, spider):
@@ -97,3 +99,5 @@ class Text5DouyuDownloaderMiddleware(object):
         # - return a Request object: stops process_exception() chain
         pass
 
+    def spider_opened(self, spider):
+        spider.logger.info('Spider opened: %s' % spider.name)
