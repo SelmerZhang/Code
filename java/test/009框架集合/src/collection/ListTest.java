@@ -38,10 +38,10 @@ public class ListTest {
 		Course cr1=new Course("1", "数据结构");
 		coursesToSelect.add(cr1);
 		System.out.println("添加了课程");
-		Course temp1=(Course)coursesToSelect.get(0);
-		System.out.println("添加了课程"+ temp1.id+":"+temp1.name);
+		Course temp1=(Course)coursesToSelect.get(0);//转换为Course类型
+		System.out.println("添加了课程"+ temp1.id+":"+temp1.name);//从Course类型输出
 		Course cr2=new Course("2", "C++");
-		coursesToSelect.add(0,cr2);
+		coursesToSelect.add(0,cr2);//数据结构将被往下顺移
 		Course temp2=(Course)coursesToSelect.get(0);
 		System.out.println("添加了课程"+temp2.id+":"+temp2.name);
 		

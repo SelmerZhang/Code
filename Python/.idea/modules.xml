@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/scrapytext/Scripts/ArticalSoider/.idea/ArticalSoider.iml" filepath="$PROJECT_DIR$/scrapytext/Scripts/ArticalSoider/.idea/ArticalSoider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Python.iml" filepath="$PROJECT_DIR$/.idea/Python.iml" />
+      <module fileurl="file://E:/software/Python36/Lib/site-packages/scrapy/.idea/scrapy.iml" filepath="E:/software/Python36/Lib/site-packages/scrapy/.idea/scrapy.iml" />
+      <module fileurl="file://F:/各种软件下载目录/BaiduNetdiskDownload/python分布式爬虫打造搜索引擎/爬虫源码/.idea/爬虫源码.iml" filepath="F:/各种软件下载目录/BaiduNetdiskDownload/python分布式爬虫打造搜索引擎/爬虫源码/.idea/爬虫源码.iml" />
+      <module fileurl="file://F:/各种软件下载目录/BaiduNetdiskDownload/python分布式爬虫打造搜索引擎/爬虫源码(1)/.idea/爬虫源码(1).iml" filepath="F:/各种软件下载目录/BaiduNetdiskDownload/python分布式爬虫打造搜索引擎/爬虫源码(1)/.idea/爬虫源码(1).iml" />
+      <module fileurl="file://F:/各种软件下载目录/BaiduNetdiskDownload/python分布式爬虫打造搜索引擎/爬虫讲师源代码/.idea/爬虫讲师源代码.iml" filepath="F:/各种软件下载目录/BaiduNetdiskDownload/python分布式爬虫打造搜索引擎/爬虫讲师源代码/.idea/爬虫讲师源代码.iml" />
+    </modules>
+  </component>
+</project>

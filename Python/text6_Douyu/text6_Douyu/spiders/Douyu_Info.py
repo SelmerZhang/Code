@@ -9,13 +9,13 @@ class DouyuInfoSpider(scrapy.Spider):
     start_urls = ['https://yuba.douyu.com/allclassify/anchorlist/list/516']
 
     def __init__(self):
-        super(DouyuInfoSpider,self).__init__()
-        self.driver=webdriver.Chrome()
 
 
     def parse(self, response):
         
         item=Text6DouyuItem()
+        super(DouyuInfoSpider,self).__init__()
+        self.driver=webdriver.Chrome()
         list_item=response.xpath("//div[@class='classify-classifyGroup-1lMJV']/div")
         print(type(response))
         if response:
