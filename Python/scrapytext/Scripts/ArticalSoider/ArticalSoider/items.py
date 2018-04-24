@@ -11,7 +11,6 @@ from scrapy.loader import ItemLoader #拿到takefirst
 import re
 import datetime
 
-
 # class ArticalsoiderItem(scrapy.Item):
 #     # define the fields for your item here like:
 #     # name = scrapy.Field()
@@ -32,12 +31,14 @@ class Item_Takefirst(ItemLoader):#自定义拿到takefirst
 
 
 def time_convert(value):
-    value = value.replace("·", "").strip()
+    #value = (re.match(".*(\d+)/(\d+)/(\d+).*?", value).group(1))
+    value = value.replace("\r", "").replace("\n", "").replace("·", "").strip()
     try:
         value = datetime.datetime.strptime(value, "%Y/%m/%d").date()
     except Exception as e:
         value = datetime.datetime.now().date()
-        print(e)
+        #print(e)
+    return value
 
 
 def praise_convert(value):

@@ -16,11 +16,13 @@ import MySQLdb
 #from scrapy.exporters import JsonItemExporter
 
 
+
 class ArticalsoiderPipeline(object):#自定义将文件保存为json文件
     def __init__(self):
         self.file = codecs.open("bole.json", "wb", encoding="utf-8")
 
     def process_item(self, item, spider):
+        item["create_time"] = str(item["create_time"])#当保存时，json文件会和create_time的date类型冲突
         lines = json.dumps(dict(item), ensure_ascii=False) + "\n" #保证正常的中文编码
         self.file.write(lines)
         return item
@@ -114,6 +116,8 @@ class MysqlTwistedPipelines(object):#插入的异步操作
         #执行具体的插入
         insert_sql = "insert into bole(title, url_object_id, create_date, fav_nums) values(%s, %s, %s, %s)"
         cursor.execute(insert_sql, (item["title"], item["url_hashcode"], item["create_time"], item["praise_number"]))
+
+        pass
 
 
 

@@ -92,6 +92,12 @@ class JobboleSpider(scrapy.Spider):
 
 
         item = item_loder.load_item()#现在item的数据都是list类型
+        print("召开就行了了开发了吧就看书")
+        b=item["title"]
+        print(b)
+        a=item["create_time"]
+        print(a)
+        print(type(a))
         yield item
 
 
