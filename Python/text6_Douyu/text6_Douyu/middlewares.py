@@ -27,7 +27,6 @@ class Text6DouyuSpiderMiddleware(object):
     def process_spider_input(self, response, spider):
         # Called for each response that goes through the spider
         # middleware and into the spider.
-
         # Should return None or raise an exception.
         return None
 
@@ -67,7 +66,8 @@ class Text6DouyuDownloaderMiddleware(object):
     super(Text6DouyuSpiderMiddleware, self).__init__()RequestDownloadMiddleWare(object):
     self.driver = webdriver.Chrome()
     def process_request(self,request,spider):
-        if spider.name='Douyu_info':
+
+        if spider.name= 'Douyu_info':
             spider.driver.get(request.url)
             print("深V股v结婚两个关于一一一一一一一一一")
             print(request.url)
@@ -77,7 +77,5 @@ class Text6DouyuDownloaderMiddleware(object):
                 spider.driver.execute_script(js)
                 time.sleep(1)'''
             response = Response(url = request.url,body=bytes(spider.driver.page_source),request = request)
-        return response 
-　      else:
-　　　       pass
+        return response
     

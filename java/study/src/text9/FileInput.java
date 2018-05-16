@@ -30,5 +30,5 @@ public class FileInput {
         } catch (Exception e) {  
             e.printStackTrace();  
         }  
-    } 
+    } //main ½áÊø
 }

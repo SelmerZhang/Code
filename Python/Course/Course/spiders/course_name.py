@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from Course.items import CourseItem
+from ..items import CourseItem
 import time
 import re
 

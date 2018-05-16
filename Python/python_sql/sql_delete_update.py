@@ -45,7 +45,5 @@ for row in re:
 #   conn.rollback()#让事物回滚到所有语句执行之前
 
 
-finally:
-  cursor.close()
-  conn.close()
+
 

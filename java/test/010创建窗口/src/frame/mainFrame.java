@@ -21,14 +21,14 @@ public class mainFrame extends JFrame
 	public mainFrame(String sTitle,int iWidth,int iHeight)
 	{
 		Dimension dim=Toolkit.getDefaultToolkit().getScreenSize();//获取屏幕尺寸即分辨率
-		ImageIcon ii=new ImageIcon("img14.jpg");	//链接图片
+		//ImageIcon ii=new ImageIcon("img14.jpg");	//链接图片
 		setTitle(sTitle);//设置窗体标题
-		setIconImage(ii.getImage());//设置窗体的图标
+		//setIconImage(ii.getImage());//设置窗体的图标
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);//设置关闭窗体时退出程序
 		setSize(iWidth, iHeight);//设置窗体大小
 		int w=getSize().width;//获取窗体宽
 		int h=getSize().height;
-		System.out.println("窗体宽："+w+"窗体高:"+h);
+		//System.out.println("窗体宽："+w+"窗体高:"+h);
 		//将窗口移到屏幕中间
 		int x=(dim.width-w)/2;
 		int y=(dim.height -h)/2;

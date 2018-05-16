@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from  text2.items import Text2Item
+from  ..items import Text2Item
+
 
 class DoubanSpider(scrapy.Spider):
     name = 'douban'
-    #allowed_domains = ['https://book.tuicool.com']
-    count=0
+    count = 0
     start_urls = ['https://book.douban.com/tag/小说?start='+str(count)+'&type=T']
     
     
@@ -14,7 +14,7 @@ class DoubanSpider(scrapy.Spider):
         items=[]
         node_list=response.xpath("//div[@class='info']")#拿到最外层div
         for node in node_list:
-            item=Text2Item()#itemd的类用来存储信息            
+            item = DoubanSpider()#itemd的类用来存储信息
             #extract将Xpath对象转换为Unicode方便解读
             bookname=node.xpath("./h2/a/text()").extract()[0].strip()#rstrip()将右边的空格去掉
             title=node.xpath("./div[1]/text()").extract()[0].split("/")

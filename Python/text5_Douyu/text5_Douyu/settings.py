@@ -47,14 +47,15 @@ ROBOTSTXT_OBEY = False
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-    #'text5_Douyu.middlewares.Text5DouyuSpiderMiddleware': 543, #'text5_Douyu.middlewares.SeleniumMiddleware': 542,
+    #'text5_Douyu.middlewares.Text5DouyuSpiderMiddleware': 543,
+# #'text5_Douyu.middlewares.SeleniumMiddleware': 542,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'text5_Douyu.middlewares.Text5DouyuDownloaderMiddleware': 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+    'text5_Douyu.middlewares.JSMiddleware': 543,
+}
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html

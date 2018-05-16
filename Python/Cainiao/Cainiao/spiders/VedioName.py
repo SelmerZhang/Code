@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from Cainiao.items import CainiaoItem
+from ..items import CainiaoItem
 import time
 import re
 

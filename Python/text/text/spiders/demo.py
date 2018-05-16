@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-
 class DemoSpider(scrapy.Spider):
     name = 'demo'
     #allowed_domains = ['www.baidu.com']

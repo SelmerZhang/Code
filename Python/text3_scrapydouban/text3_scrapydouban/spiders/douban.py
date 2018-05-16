@@ -1,18 +1,15 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from  text3_scrapydouban.items import Text3Item
+from ..items import Text3Item
+
 
 class DoubanSpider(scrapy.Spider):
     name = 'douban'
-    #allowed_domains = ['https://book.tuicool.com']
     count=0
     urls= 'https://book.douban.com/tag/小说?start='
     start_urls = [ urls + str(count)+ '&type=T']
-    
-    
-    
-    def parse(self, response):
 
+    def parse(self, response):
         node_list=response.xpath("//div[@class='info']")#拿到最外层div
         for node in node_list:
             item=Text3Item()#itemd的类用来存储信息            

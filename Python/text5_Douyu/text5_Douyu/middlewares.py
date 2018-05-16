@@ -7,8 +7,9 @@
 import time
 from selenium import webdriver
 from scrapy.http.response.html import HtmlResponse
-from scrapy.http.response import Response
+
 from scrapy import signals
+import pdb
 
 
 class Text5DouyuSpiderMiddleware(object):
@@ -75,8 +76,9 @@ class Text5DouyuDownloaderMiddleware(object):
 
     def process_request(self, request, spider):
         # Called for each request that goes through the downloader
-        # middleware.
+        # middleware
         return None
+
 
     def process_response(self, request, response, spider):
         # Called with the response returned from the downloader.
@@ -85,6 +87,11 @@ class Text5DouyuDownloaderMiddleware(object):
         # - return a Response object
         # - return a Request object
         # - or raise IgnoreRequest
+        # if spider.name == "DouyuImage":
+        #     self.web.get(request.url)
+        #     time.sleep(3)
+        #     print("访问:{0}".format(request.url))
+        #     response = self.web.page_source
         return response
 
     def process_exception(self, request, exception, spider):
@@ -96,4 +103,21 @@ class Text5DouyuDownloaderMiddleware(object):
         # - return a Response object: stops process_exception() chain
         # - return a Request object: stops process_exception() chain
         pass
+
+class JSMiddleware(object):
+    def process_request(self, request, spider):
+        web = webdriver.Chrome("E:/software/python3.6/chromedriver.exe")
+        try:
+            if spider.name == "DouyuImage":
+                # self.web.get(request.url)
+                web.get(request.url)
+                time.sleep(3)
+                body = web.page_source
+                print("访问:{0}".format(request.url))
+                print("^" * 50)
+                return HtmlResponse(url=web.current_url, body=body, encoding="utf-8", request=request)
+        except Exception as e:
+            print(e)
+            print("webdriver 失败")
+            return None
 

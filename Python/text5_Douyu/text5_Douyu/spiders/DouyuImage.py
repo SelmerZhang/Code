@@ -2,29 +2,38 @@
 import scrapy
 from selenium import webdriver
 from bs4 import BeautifulSoup
-from text5_Douyu.items import Text5DouyuItem
 
+# from text5_Douyu.items import Text5DouyuItem
+import pdb
 
 
 class DouyuimageSpider(scrapy.Spider):
     name = 'DouyuImage'
     #allowed_domains = ['douyu.com']
-    start_urls = ['https://yuba.douyu.com/allclassify/anchorlist/list/516']
+    start_urls = ['https://search.jd.com/Search?keyword=iphone8%E6%89%8B%E6%9C%BA&enc=utf-8&spm=a.0.0&pvid=391abe80e182462ca5559693e6b4d37e']
 
-    def __init__(self):
-        super(DouyuimageSpider,self).__init__()
-        self.web=webdriver.Chrome()
-        # self.web.get(self.start_urls)
-        # self.page = BeautifulSoup(self.web.page_source,"lxml")
-
-
-        
+    # def __init__(self):
+    #     super(DouyuimageSpider,self).__init__()
+    #     self.web = webdriver.Chrome("E:/software/python3.6/chromedriver.exe")
+    #     #self.web = webdriver.Chrome()
+    #     super(DouyuimageSpider,self).__init__()
 
     def parse(self, response):
-        print("*"*50)
-        print(response.url)
-        self.web.get(response.url)
-        print(type(self.web.page_source))
+        print("*******************************************")
+        print(response)
+        # print(response.url)
+        list_item = response.xpath("//div[@class='classify-classifyGroup-1lMJV']/div")
+        print(list_item)
+
+
+        print(type(list_item))
+        # print(page)
+        print("**************8888")
+        pdb.set_trace()
+        # print("*"*50)
+        # print(response.url)
+        # self.web.get(response.url)
+        # print(type(self.web.page_source))
 
     #     item=Text5DouyuItem()
     #     list_item=response.xpath("//div[@class='classify-classifyGroup-1lMJV']/div")
