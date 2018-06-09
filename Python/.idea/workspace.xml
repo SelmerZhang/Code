@@ -10,82 +10,118 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Python$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1525095755794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_virtual/Scripts/ArticalSoider/ArticalSoider" />
-    <SUITE FILE_PATH="coverage/Python$sql_delete_update.coverage" NAME="sql_delete_update Coverage Results" MODIFIED="1525080632673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_sql" />
+    <SUITE FILE_PATH="coverage/Python$models.coverage" NAME="models Coverage Results" MODIFIED="1528022891165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_virtual/Scripts/djangostart/message" />
     <SUITE FILE_PATH="coverage/Python$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1525096023982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_virtual/Scripts/ArticalSoider" />
     <SUITE FILE_PATH="coverage/Python$count.coverage" NAME="count Coverage Results" MODIFIED="1525918224575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word_count" />
+    <SUITE FILE_PATH="coverage/Python$sql_delete_update.coverage" NAME="sql_delete_update Coverage Results" MODIFIED="1527991514020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_sql" />
+    <SUITE FILE_PATH="coverage/Python$Twisted_Trial_in_test_mysql_py.coverage" NAME="Twisted Trial in test_mysql.py Coverage Results" MODIFIED="1527994020765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_sql" />
+    <SUITE FILE_PATH="coverage/Python$urls__1_.coverage" NAME="urls (1) Coverage Results" MODIFIED="1528018508893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myblog/myblog" />
+    <SUITE FILE_PATH="coverage/Python$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1526532776684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Zhihu_socket" />
+    <SUITE FILE_PATH="coverage/Python$Python_draw.coverage" NAME="Python_draw Coverage Results" MODIFIED="1527937822790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_draw/Python_draw/Python_draw" />
     <SUITE FILE_PATH="coverage/Python$Zhuihu_Loade.coverage" NAME="Zhuihu_Loade Coverage Results" MODIFIED="1525498056565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Zhihu_socket" />
+    <SUITE FILE_PATH="coverage/Python$views.coverage" NAME="views Coverage Results" MODIFIED="1528006674238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_virtual/Scripts/djangostart/apps/message" />
     <SUITE FILE_PATH="coverage/Python$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1525091086795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider" />
-    <SUITE FILE_PATH="coverage/Python$web_login.coverage" NAME="web_login Coverage Results" MODIFIED="1525512878773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Zhihu_socket" />
-    <SUITE FILE_PATH="coverage/Python$count2.coverage" NAME="count2 Coverage Results" MODIFIED="1525920600194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word_count" />
+    <SUITE FILE_PATH="coverage/Python$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1528022951379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_virtual/Scripts/djangostart/message" />
+    <SUITE FILE_PATH="coverage/Python$views__1_.coverage" NAME="views (1) Coverage Results" MODIFIED="1528022997483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_virtual/Scripts/djangostart/message" />
+    <SUITE FILE_PATH="coverage/Python$settings__1_.coverage" NAME="settings (1) Coverage Results" MODIFIED="1528001826128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_virtual/Scripts/djangostart/djangostart" />
+    <SUITE FILE_PATH="coverage/Python$web_login.coverage" NAME="web_login Coverage Results" MODIFIED="1526555953807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Zhihu_socket" />
+    <SUITE FILE_PATH="coverage/Python$count2.coverage" NAME="count2 Coverage Results" MODIFIED="1527425384519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word_count" />
+    <SUITE FILE_PATH="coverage/Python$s.coverage" NAME="s Coverage Results" MODIFIED="1528023304489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word_count/sf" />
+    <SUITE FILE_PATH="coverage/Python$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1525095755794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_virtual/Scripts/ArticalSoider/ArticalSoider" />
+    <SUITE FILE_PATH="coverage/Python$settings.coverage" NAME="settings Coverage Results" MODIFIED="1527937642361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_virtual/Scripts/MxShop/MxShop" />
+    <SUITE FILE_PATH="coverage/Python$map.coverage" NAME="map Coverage Results" MODIFIED="1527124612503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word_count" />
+    <SUITE FILE_PATH="coverage/Python$login2.coverage" NAME="login2 Coverage Results" MODIFIED="1526564619975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Zhihu_socket" />
+    <SUITE FILE_PATH="coverage/Python$reduce.coverage" NAME="reduce Coverage Results" MODIFIED="1527124615496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word_count" />
+    <SUITE FILE_PATH="coverage/Python$urls.coverage" NAME="urls Coverage Results" MODIFIED="1528010612537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_virtual/Scripts/djangostart/djangostart" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Python" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DouyuImage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text5_Douyu/text5_Douyu/spiders/DouyuImage.py">
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysit/blog/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+            <state relative-caret-position="150">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
-                <element signature="e#24#37#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text5_Douyu/text5_Douyu/middlewares.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysit/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2650">
-              <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Zhuihu_Loade.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Zhihu_socket/Zhuihu_Loade.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+            <state relative-caret-position="325">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
               <folding>
-                <element signature="e#19#34#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Zhihu_socket/web_login.py">
+      <file leaf-file-name="article_page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysit/blog/templates/article_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="175">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message_form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysit/blog/templates/message_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysit/blog/templates/edit_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="69" lean-forward="true" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysit/mysit/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#629#661#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="count.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/word_count/count.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysit/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="count2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/word_count/count2.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysit/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="225">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="e#1#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +131,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
+        <option value="Setup Script" />
+        <option value="CSS File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -111,57 +149,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scrapytext/Scripts/ArticalSoider/ArticalSoider/spiders/jobbole.py" />
-        <option value="$PROJECT_DIR$/scrapytext/Scripts/ArticalSoider/ArticalSoider/items.py" />
-        <option value="$PROJECT_DIR$/scrapytext/Scripts/ArticalSoider/ArticalSoider/settings.py" />
-        <option value="$PROJECT_DIR$/scrapytext/Scripts/ArticalSoider/ArticalSoider/pipelines.py" />
-        <option value="$PROJECT_DIR$/Cainiao/Cainiao/settings.py" />
-        <option value="$PROJECT_DIR$/Course/Course/settings.py" />
-        <option value="$PROJECT_DIR$/Cainiao/Cainiao/items.py" />
-        <option value="$PROJECT_DIR$/Course/Course/items.py" />
-        <option value="$PROJECT_DIR$/Course/Course/pipelines.py" />
-        <option value="$PROJECT_DIR$/myblog/blog/migrations/urls.py" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/templates/div_css.html" />
+        <option value="$PROJECT_DIR$/python_virtual/Lib/site-packages/MySQLdb/__init__.py" />
+        <option value="E:/software/python3.6/Lib/site-packages/MySQLdb/__init__.py" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/djangostart/__init__.py" />
+        <option value="$PROJECT_DIR$/python_sql/test_mysql.py" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/message/urls.py" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/message/__init__.py" />
+        <option value="$PROJECT_DIR$/word_count/lll/lad.py" />
+        <option value="$PROJECT_DIR$/word_count/sf/s.py" />
+        <option value="$PROJECT_DIR$/myblog/blog2/views.py" />
+        <option value="$PROJECT_DIR$/www/blog/urls.py" />
+        <option value="$PROJECT_DIR$/www/www/urls.py" />
+        <option value="$PROJECT_DIR$/www/blog/template/__init__.py" />
+        <option value="$PROJECT_DIR$/www/blog/views.py" />
+        <option value="$PROJECT_DIR$/www/blog/templates.py" />
+        <option value="$PROJECT_DIR$/www/www/settings.py" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/apps/message/views.py" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/apps/message/apps.py" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/message/templates/message/div_css.html" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/static/css/div_css.html" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/static/div_css.html" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/static/fff/div_css.html" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/static/fff/u/div_css.html" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/message/templates/div_css.html" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/apps/blog/apps.py" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/apps/blog/templates/div_css.html" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/apps/blog/urls.py" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/apps/blog/views.py" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/message/views.py" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/static/css/layout.css" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/message/templates/message_form.html" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/static/css/style.css" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/message/models.py" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/djangostart/settings.py" />
+        <option value="$PROJECT_DIR$/myblog/myblog/settings.py" />
+        <option value="$PROJECT_DIR$/python_virtual/Scripts/djangostart/djangostart/urls.py" />
+        <option value="$PROJECT_DIR$/myblog/blog/templates/h5.html" />
+        <option value="$PROJECT_DIR$/myblog/__init__.py" />
+        <option value="$PROJECT_DIR$/myblog/blog/views.py" />
         <option value="$PROJECT_DIR$/myblog/blog/urls.py" />
         <option value="$PROJECT_DIR$/myblog/myblog/urls.py" />
-        <option value="$PROJECT_DIR$/myblog/blog/Templates.py" />
-        <option value="$PROJECT_DIR$/myblog/blog/Templates/index.html" />
-        <option value="$PROJECT_DIR$/myblog/blog2/views.py" />
-        <option value="$PROJECT_DIR$/myblog/blog/Templates/blog/index.html" />
-        <option value="$PROJECT_DIR$/myblog/myblog/settings.py" />
-        <option value="$PROJECT_DIR$/myblog/blog/admin.py" />
-        <option value="$PROJECT_DIR$/myblog/blog/models.py" />
-        <option value="$PROJECT_DIR$/myblog/blog/views.py" />
-        <option value="$PROJECT_DIR$/myblog/blog/Templates/blog/article_page.html" />
-        <option value="$PROJECT_DIR$/myblog/blog/migrations/0001_initial.py" />
-        <option value="$PROJECT_DIR$/test11/test11/middlewares.py" />
-        <option value="$PROJECT_DIR$/test11/test11/spiders/test.py" />
-        <option value="$PROJECT_DIR$/text/text/spiders/demo.py" />
-        <option value="$PROJECT_DIR$/Cainiao/Cainiao/pipelines.py" />
-        <option value="E:/software/python3.6/Lib/asyncio/subprocess.py" />
-        <option value="$PROJECT_DIR$/text2/text2/spiders/douban.py" />
-        <option value="$PROJECT_DIR$/text3_scrapydouban/text3_scrapydouban/spiders/douban.py" />
-        <option value="$PROJECT_DIR$/python_sql/sql_delete_update.py" />
-        <option value="$PROJECT_DIR$/Cainiao/Cainiao/spiders/VedioName.py" />
-        <option value="$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/ArticleSpider/main.py" />
-        <option value="$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/main.py" />
-        <option value="$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/ArticleSpider/settings.py" />
-        <option value="$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/ArticleSpider/middlewares.py" />
-        <option value="$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/ArticleSpider/items.py" />
-        <option value="$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/ArticleSpider/self_page/common.py" />
-        <option value="$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/ArticleSpider/spiders/jobbole.py" />
-        <option value="$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/ArticleSpider/pipelines.py" />
-        <option value="$PROJECT_DIR$/python_virtual/Scripts/ArticalSoider/ArticalSoider/pipelines.py" />
-        <option value="$PROJECT_DIR$/Course/Course/spiders/course_name.py" />
-        <option value="$PROJECT_DIR$/text5_Douyu/text5_Douyu/settings.py" />
-        <option value="$PROJECT_DIR$/text5_Douyu/text5_Douyu/middlewares.py" />
-        <option value="$PROJECT_DIR$/text5_Douyu/text5_Douyu/spiders/DouyuImage.py" />
-        <option value="$PROJECT_DIR$/text6_Douyu/text6_Douyu/middlewares.py" />
-        <option value="$PROJECT_DIR$/Zhihu_socket/Zhuihu_Loade.py" />
-        <option value="$PROJECT_DIR$/Zhihu_socket/web_login.py" />
-        <option value="$PROJECT_DIR$/word_count.py" />
-        <option value="$PROJECT_DIR$/word_count/count.py" />
-        <option value="$PROJECT_DIR$/word_count/word2.py" />
-        <option value="$PROJECT_DIR$/word_count/count2.py" />
+        <option value="$PROJECT_DIR$/mysit/mysit/__init__.py" />
+        <option value="$PROJECT_DIR$/mysit/mysit/settings.py" />
+        <option value="$PROJECT_DIR$/mysit/blog/admin.py" />
+        <option value="$PROJECT_DIR$/mysit/blog/models.py" />
+        <option value="$PROJECT_DIR$/mysit/mysit/urls.py" />
+        <option value="$PROJECT_DIR$/mysit/blog/urls.py" />
+        <option value="$PROJECT_DIR$/mysit/blog/templates/message_form.html" />
+        <option value="$PROJECT_DIR$/mysit/blog/templates/article_page.html" />
+        <option value="$PROJECT_DIR$/mysit/blog/views.py" />
+        <option value="$PROJECT_DIR$/mysit/blog/templates/edit_page.html" />
       </list>
     </option>
   </component>
@@ -174,88 +212,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2132" />
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="1030" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="50" />
+    <option name="y" value="32" />
+    <option name="width" value="1789" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Python" type="cbb8eebc:String" user="Python" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Python" type="cbb8eebc:String" user="Python" />
-              <item name="Python" type="cbb8eebc:String" user="Python" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Python" type="cbb8eebc:String" user="Python" />
-              <item name="Python" type="cbb8eebc:String" user="Python" />
-              <item name="python_virtual" type="cbb8eebc:String" user="python_virtual" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Python" type="cbb8eebc:String" user="Python" />
-              <item name="Python" type="cbb8eebc:String" user="Python" />
-              <item name="python_virtual" type="cbb8eebc:String" user="python_virtual" />
-              <item name="Scripts" type="cbb8eebc:String" user="Scripts" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Python" type="cbb8eebc:String" user="Python" />
-              <item name="Python" type="cbb8eebc:String" user="Python" />
-              <item name="python_virtual" type="cbb8eebc:String" user="python_virtual" />
-              <item name="Scripts" type="cbb8eebc:String" user="Scripts" />
-              <item name="ArticleSpider" type="cbb8eebc:String" user="ArticleSpider" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Python" type="cbb8eebc:String" user="Python" />
-              <item name="Python" type="cbb8eebc:String" user="Python" />
-              <item name="python_virtual" type="cbb8eebc:String" user="python_virtual" />
-              <item name="Scripts" type="cbb8eebc:String" user="Scripts" />
-              <item name="ArticleSpider" type="cbb8eebc:String" user="ArticleSpider" />
-              <item name="ArticleSpider" type="cbb8eebc:String" user="ArticleSpider" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Python" type="cbb8eebc:String" user="Python" />
-              <item name="Python" type="cbb8eebc:String" user="Python" />
-              <item name="python_virtual" type="cbb8eebc:String" user="python_virtual" />
-              <item name="Scripts" type="cbb8eebc:String" user="Scripts" />
-              <item name="ArticleSpider" type="cbb8eebc:String" user="ArticleSpider" />
-              <item name="ArticleSpider" type="cbb8eebc:String" user="ArticleSpider" />
-              <item name="spiders" type="cbb8eebc:String" user="spiders" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="爬虫源码(1)" type="cbb8eebc:String" user="爬虫源码(1)" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="爬虫源码(1)" type="cbb8eebc:String" user="爬虫源码(1)" />
-              <item name="F:\各种软件下载目录\BaiduNetdiskDownload\python分布式爬虫打造搜索引擎\爬虫源码(1)" type="cbb8eebc:String" user="F:\各种软件下载目录\BaiduNetdiskDownload\python分布式爬虫打造搜索引擎\爬虫源码(1)" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="爬虫源码(1)" type="cbb8eebc:String" user="爬虫源码(1)" />
-              <item name="F:\各种软件下载目录\BaiduNetdiskDownload\python分布式爬虫打造搜索引擎\爬虫源码(1)" type="cbb8eebc:String" user="F:\各种软件下载目录\BaiduNetdiskDownload\python分布式爬虫打造搜索引擎\爬虫源码(1)" />
-              <item name="g105gk" type="cbb8eebc:String" user="g105gk" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,11 +233,88 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="word_count" type="462c0819:PsiDirectoryNode" />
+              <item name="mysit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="mysit" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="mysit" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="mysit" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="mysit" type="462c0819:PsiDirectoryNode" />
+              <item name="mysit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (python_virtual) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (python_virtual) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python_virtual" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (python_virtual) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python_virtual" type="462c0819:PsiDirectoryNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (python_virtual) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python_virtual" type="462c0819:PsiDirectoryNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="djangostart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (python_virtual) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python_virtual" type="462c0819:PsiDirectoryNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="djangostart" type="462c0819:PsiDirectoryNode" />
+              <item name="djangostart" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="untitled1" type="cbb8eebc:String" user="untitled1" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="untitled1" type="cbb8eebc:String" user="untitled1" />
+              <item name="python_virtual/Scripts/untitled1" type="cbb8eebc:String" user="python_virtual/Scripts/untitled1" />
             </path>
           </expand>
           <select />
@@ -283,15 +327,24 @@
     <property name="ToolWindowTODO.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
-    <property name="last_opened_file_path" value="E:/software/Python36/Lib" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_virtual/Scripts/untitled1" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Buildout config" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\GitHubCode\Code\Python\text7_Bole\text7_Bole" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\software\Python36\Lib\site-packages" />
+      <recent name="F:\GitHubCode\Code\Python\python_virtual\Scripts\djangostart\apps" />
+      <recent name="F:\GitHubCode\Code\Python\python_virtual\Scripts\djangostart\static\fff\u" />
+      <recent name="F:\GitHubCode\Code\Python\python_virtual\Scripts\djangostart\static\fff" />
+      <recent name="F:\GitHubCode\Code\Python\www\blog\templates" />
+      <recent name="F:\GitHubCode\Code\Python\python_virtual\Scripts\djangostart\message\templates\message" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitHubCode\Code\Python\mysit\blog" />
+      <recent name="F:\GitHubCode\Code\Python\myblog\blog\templates" />
+      <recent name="F:\GitHubCode\Code\Python\python_virtual\Scripts\djangostart\static\css" />
+      <recent name="F:\GitHubCode\Code\Python\python_virtual\Scripts\djangostart\message\templates" />
+      <recent name="F:\GitHubCode\Code\Python\python_virtual\Scripts\djangostart\apps\blog\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,64 +359,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.count2">
-    <configuration name="Zhuihu_Loade" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zhihu_socket" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zhihu_socket/Zhuihu_Loade.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="count" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/word_count" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/word_count/count.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="count2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/word_count" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/word_count/count2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.message_form.html">
+    <configuration name="div_css.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python/python_virtual/Scripts/djangostart/message/templates/div_css.html" />
+    <configuration name="div_css.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python/python_virtual/Scripts/djangostart/static/css/div_css.html" />
+    <configuration name="div_css.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python/python_virtual/Scripts/djangostart/apps/blog/templates/div_css.html" />
+    <configuration name="div_css.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python/python_virtual/Scripts/djangostart/message/templates/message/div_css.html" />
+    <configuration name="div_css.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python/python_virtual/Scripts/djangostart/static/fff/u/div_css.html" />
+    <configuration name="message_form.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python/python_virtual/Scripts/djangostart/message/templates/message_form.html" />
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python">
       <module name="ArticalSoider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -399,25 +401,6 @@
       <option name="SCRIPT_NAME" value="E:/software/Python36/Lib/site-packages/scrapy/cmdline.py" />
       <option name="PARAMETERS" value="crawl Bole" />
       <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_virtual/Scripts/ArticalSoider" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_virtual/Scripts/ArticalSoider/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
@@ -459,43 +442,47 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="web_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
+    <configuration name="untitled1" type="Python.DjangoServer" factoryName="Django server">
+      <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zhihu_socket" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zhihu_socket/web_login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
     </configuration>
     <list>
       <item itemvalue="Python.main (2)" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.spider" />
       <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.main (4)" />
-      <item itemvalue="Python.Zhuihu_Loade" />
-      <item itemvalue="Python.web_login" />
-      <item itemvalue="Python.count" />
-      <item itemvalue="Python.count2" />
+      <item itemvalue="Django server.untitled1" />
+      <item itemvalue="JavaScript Debug.div_css.html" />
+      <item itemvalue="JavaScript Debug.div_css.html (1)" />
+      <item itemvalue="JavaScript Debug.div_css.html (2)" />
+      <item itemvalue="JavaScript Debug.div_css.html (3)" />
+      <item itemvalue="JavaScript Debug.message_form.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.count2" />
-        <item itemvalue="Python.count" />
-        <item itemvalue="Python.web_login" />
-        <item itemvalue="Python.Zhuihu_Loade" />
-        <item itemvalue="Python.main (4)" />
+        <item itemvalue="JavaScript Debug.message_form.html" />
+        <item itemvalue="JavaScript Debug.div_css.html (1)" />
+        <item itemvalue="JavaScript Debug.div_css.html (3)" />
+        <item itemvalue="JavaScript Debug.div_css.html (3)" />
+        <item itemvalue="JavaScript Debug.div_css.html (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -512,6 +499,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Twisted_Trial_in_test_mysql_py - 2018.06.03 at 09h 52m 31s.xml">
+      <configuration name="Twisted Trial in test_mysql.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_mysql_py - 2018.06.03 at 09h 57m 48s.xml">
+      <configuration name="Twisted Trial in test_mysql.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_mysql_py - 2018.06.03 at 09h 59m 27s.xml">
+      <configuration name="Twisted Trial in test_mysql.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_mysql_py - 2018.06.03 at 09h 59m 46s.xml">
+      <configuration name="Twisted Trial in test_mysql.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_mysql_py - 2018.06.03 at 10h 00m 34s.xml">
+      <configuration name="Twisted Trial in test_mysql.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_mysql_py - 2018.06.03 at 10h 01m 16s.xml">
+      <configuration name="Twisted Trial in test_mysql.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_mysql_py - 2018.06.03 at 10h 04m 33s.xml">
+      <configuration name="Twisted Trial in test_mysql.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_mysql_py - 2018.06.03 at 10h 04m 54s.xml">
+      <configuration name="Twisted Trial in test_mysql.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_mysql_py - 2018.06.03 at 10h 46m 44s.xml">
+      <configuration name="Twisted Trial in test_mysql.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_mysql_py - 2018.06.03 at 10h 47m 01s.xml">
+      <configuration name="Twisted Trial in test_mysql.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -522,30 +541,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-7" width="1472" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3045822" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.28264758" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15558699" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.52593917" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25402504" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5480226" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44878706" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4083558" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="manage.py@untitled1" order="12" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32566372" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,6 +581,11 @@
           <line>10</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Zhihu_socket/login2.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -573,7 +597,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="84" />
+      <option name="time" value="89" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -591,262 +615,204 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/word_count/count2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/blog2/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/blog/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/blog/Templates/blog/article_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/blog/Templates/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/blog/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapytext/Lib/site-packages/scrapy/spiders/__init__.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test11/test11/spiders/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/test11/test11/settings.py" />
-    <entry file="file://$PROJECT_DIR$/test11/test11/pipelines.py" />
-    <entry file="file://$PROJECT_DIR$/test11/test11/items.py" />
-    <entry file="file://$PROJECT_DIR$/test11/test11/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/test11/test11/middlewares.py" />
-    <entry file="file://$PROJECT_DIR$/test11/test11/spiders/test.py" />
-    <entry file="file://$PROJECT_DIR$/text6_Douyu/text6_Douyu/spiders/Douyu_Info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/software/Python36/Lib/re.py" />
-    <entry file="file://$PROJECT_DIR$/Cainiao/Cainiao/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/software/python3.6/Lib/asyncio/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_draw/Python_draw/Python_draw/Python_draw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text2/text2/spiders/douban.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/text/spiders/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text2/text2/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapytext/Scripts/myblog/myblog/settings.py" />
-    <entry file="file://$PROJECT_DIR$/Cainiao/Cainiao/spiders/VedioName.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_sql/sql_delete_update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text3_scrapydouban/text3_scrapydouban/spiders/douban.py">
+    <entry file="file://$PROJECT_DIR$/word_count/lll/lad.py" />
+    <entry file="file://$PROJECT_DIR$/word_count/sf/s.py" />
+    <entry file="file://$PROJECT_DIR$/www/blog/templates/blog/div_css.html" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Lib/site-packages/django/shortcuts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/ArticleSpider/self_page/common.py" />
-    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/ArticleSpider/items.py" />
-    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/ArticleSpider/middlewares.py" />
-    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/ArticleSpider/settings.py" />
-    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/ArticleSpider/pipelines.py" />
-    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/main.py" />
-    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/ArticleSpider/ArticleSpider/spiders/jobbole.py" />
-    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/ArticalSoider/main.py">
+    <entry file="file://$PROJECT_DIR$/myblog/blog2/urls.py" />
+    <entry file="file://$PROJECT_DIR$/www/blog/views.py" />
+    <entry file="file://$PROJECT_DIR$/www/blog/urls.py" />
+    <entry file="file://$PROJECT_DIR$/myblog/blog2/views.py" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/apps/message/urls.py" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/apps/message/views.py" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/apps/message/apps.py" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/message/templates/message/div_css.html" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/static/css/div_css.html" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/static/fff/u/div_css.html" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/apps/blog/templates/div_css.html" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/apps/blog/urls.py" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/apps/blog/views.py" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/apps/blog/apps.py" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/message/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/message/templates/div_css.html" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/static/css/layout.css" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/static/css/style .css" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/message/templates/message_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/message/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Course/Course/spiders/course_name.py">
+    <entry file="file://$PROJECT_DIR$/python_virtual/Lib/site-packages/django/utils/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/djangostart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/message/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/message/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/blog/templates/demo.html" />
+    <entry file="file://$PROJECT_DIR$/myblog/blog/templates/h5.html" />
+    <entry file="file://$PROJECT_DIR$/www/www/settings.py" />
+    <entry file="file://$PROJECT_DIR$/myblog/blog/views.py" />
+    <entry file="file://$PROJECT_DIR$/myblog/blog/urls.py" />
+    <entry file="file://$PROJECT_DIR$/www/www/urls.py" />
+    <entry file="file://$PROJECT_DIR$/myblog/myblog/urls.py" />
+    <entry file="file://$PROJECT_DIR$/myblog/myblog/settings.py" />
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/djangostart/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/djangostart/djangostart/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysit/mysit/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_virtual/Scripts/ArticalSoider/ArticalSoider/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text7_Bole/text7_Bole/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text6_Douyu/text6_Douyu/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_virtual/Lib/site-packages/bs4/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text5_Douyu/text5_Douyu/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text5_Douyu/text5_Douyu/spiders/DouyuImage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text5_Douyu/text5_Douyu/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2650">
-          <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zhihu_socket/Zhuihu_Loade.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-          <folding>
-            <element signature="e#19#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_count.py" />
-    <entry file="file://$PROJECT_DIR$/Zhihu_socket/web_login.py">
+    <entry file="file://$PROJECT_DIR$/mysit/blog/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/word_count/count.py">
+    <entry file="file://$PROJECT_DIR$/mysit/mysit/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2621">
+          <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysit/blog/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysit/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/word_count/count2.py">
+    <entry file="file://$PROJECT_DIR$/mysit/mysit/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="325">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding>
+            <element signature="e#629#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysit/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#1#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysit/blog/templates/message_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysit/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysit/blog/templates/article_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysit/blog/templates/edit_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="69" lean-forward="true" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysit/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

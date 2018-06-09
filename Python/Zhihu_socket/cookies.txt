@@ -1,2 +1,0 @@
-#LWP-Cookies-2.0
-Set-Cookie3: d_c0="\"AADguiRMiQ2PTvqBoBzI36bAnnb6QbPomzQ=|1525332174\""; path="/"; domain=".zhihu.com"; path_spec; expires="2021-05-02 07:22:54Z"; version=0

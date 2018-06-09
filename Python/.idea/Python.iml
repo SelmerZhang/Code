@@ -5,13 +5,29 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv1" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6 (Python) (1)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (python_virtual)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="scrapy" />
     <orderEntry type="module" module-name="爬虫讲师源代码" />
     <orderEntry type="module" module-name="爬虫源码(1)" />
     <orderEntry type="module" module-name="爬虫源码" />
     <orderEntry type="module" module-name="ArticalSoider" />
+    <orderEntry type="module" module-name="MxShop" />
+    <orderEntry type="module" module-name="Shop" />
+    <orderEntry type="module" module-name="MxShop" />
+    <orderEntry type="module" module-name="MxShop" />
+    <orderEntry type="module" module-name="MxShop" />
+    <orderEntry type="module" module-name="untitled1" />
+    <orderEntry type="module" module-name="untitled2" />
+    <orderEntry type="module" module-name="untitled1" />
+    <orderEntry type="module" module-name="djangostart" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/python_virtual/Scripts/djangostart/templates" />
+      </list>
+    </option>
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Twisted Trial" />

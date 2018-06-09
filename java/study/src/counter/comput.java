@@ -106,16 +106,24 @@ public class comput implements ActionListener {
 			try {
 				display2.setText(display2.getText() + string);// 把括号加到上面的文本框
 				boolean key;
-//				ArrayList temp = new ArrayList();// 用作交换				
-//				temp.addAll(list_gobel);
-//				list_gobel.clear();
-//				list_gobel.addAll(conformity_list(temp));// 清除list末尾的错误输入
-				key = breaket_calculability(list_gobel);// 判断输入的括号是否成对
-				// 判断是否可以计算，即至少两个运算数，一个运算符
-				if (key) {// 如果括号成对，即输入正确，则进入计算
-					sum_last = get_stack(list_gobel);
+				ArrayList temp = new ArrayList();// 用作交换
+				temp.addAll(list_gobel);
+				list_gobel.clear();
+				list_gobel.addAll(conformity_list(temp));// 清除list末尾的错误输入
+				String s = "";
+				if (list_gobel.size() == 1) {// 当操作数只有一个，没有操作符时直接将此操作数作为结果
+					sum_last = Double.parseDouble(list_gobel.get(0).toString());
+				} else {
+					key = breaket(list_gobel);// 判断输入的括号是否成对
+					// 判断是否可以计算，即至少两个运算数，一个运算符
+					if (key) {// 如果括号成对，即输入正确，则进入计算
+						sum_last = get_stack(list_gobel);
+					}
 				}
-				display2.setText(display2.getText() + (sum_last + ""));
+				for (int i = 0; i < list_gobel.size(); i++) {
+					s = s + list_gobel.get(i).toString();
+				}
+				display2.setText(s + "=" + (sum_last + ""));
 				display1.setText(sum_last + "");
 				list_gobel.clear();// 准备下一次计算
 				// 将list中内容计算
@@ -198,19 +206,23 @@ public class comput implements ActionListener {
 					//String symbol = list.get(list.size()-1).toString();//取出小数点
 					list.remove(list.size()-1);// 删除list最后的小数点
 					String num_old = list.get(list.size() - 1).toString();// 取出小数点前面的操作数
-					list.remove(list.size()-1);// 删除老的操作数
-					
-					String num_new = num_old + "." + str;// 新的操作
-					
+					list.remove(list.size()-1);// 删除老的操作数					
+					String num_new = num_old + "." + str;// 新的操作					
 					list.add(num_new);// 添加新的操作数
-				} else
+				}
+				if (operator.contains(str)||str.equals(")")) {//当前输入为操作符。取消前面的小数点
+					list.remove(list.size()-1);// 删除list最后的小数点
+					list.add(str);
+				}
+				if (str.equals("(")) {
 					return list;
+				}					
 			}
 		}
 		return list;
 	}// 输入整合结束
 
-	public boolean breaket_calculability(ArrayList list) {// 查看括号是否正确输入
+	public boolean breaket(ArrayList list) {// 查看括号是否正确输入
 		boolean key = false;
 		int right = 0, left = 0;// 右括号个数
 		for (int i = 0; i < list.size(); i++) {
@@ -221,7 +233,7 @@ public class comput implements ActionListener {
 				right++;
 			}
 		}
-		if (right == left||list.size()>2) {// 左括号个数等于右括号操作数和操作符个数正确
+		if (right == left) {// 左括号个数等于右括号操作数和操作符个数正确
 			key = true;
 		} else {
 			key = false;
@@ -242,7 +254,6 @@ public class comput implements ActionListener {
 		operator.add("/");
 		String endList = list.get(list.size() - 1).toString();
 		if (number.contains(endList) || endList.equals(")")) {// 以数字或者右括号结尾
-
 			return list;
 		}
 		if (endList.equals(".") || operator.contains(endList)) {// 以小数点，左括号，操作符结尾

@@ -15,13 +15,13 @@ def get_dict(li):
         if i in dic.keys():
             dic[i] = dic[i]+1
         else:
-            dic[i]=1
+            dic[i] = 1
     return dic
 
 
 if __name__ == '__main__':
-    a=get_words('yun.txt')#将内容装载入list
-    s=get_dict(a)
+    a = get_words('yun.txt')#将内容装载入list
+    s = get_dict(a)
     print(len(s))
     print(s)
 
